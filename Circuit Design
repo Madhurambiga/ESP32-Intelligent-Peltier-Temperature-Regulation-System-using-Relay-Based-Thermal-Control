@@ -1,0 +1,15 @@
+# Circuit Design
+
+## ESP32 Connections
+
+Temperature Sensor → GPIO Input
+
+Relay IN → GPIO Output
+
+Relay VCC → 5V
+
+Relay GND → GND
+
+Peltier Power Circuit → Relay Contacts
+
+The relay isolates the ESP32 from the high-current Peltier load.
