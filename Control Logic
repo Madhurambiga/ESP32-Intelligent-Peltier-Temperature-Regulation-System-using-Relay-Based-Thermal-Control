@@ -1,0 +1,13 @@
+# Control Logic
+
+Cooling Threshold  : > 40°C
+Heating Threshold  : < 36°C
+
+Temperature > 40°C
+→ Cooling ON
+
+Temperature < 36°C
+→ Heating ON
+
+36°C - 40°C
+→ Maintain Current State
