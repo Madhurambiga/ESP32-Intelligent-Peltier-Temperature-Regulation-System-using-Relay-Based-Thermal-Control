@@ -1,0 +1,16 @@
+# Hardware Components
+
+## ESP32
+Main controller responsible for monitoring temperature and making control decisions.
+
+## Temperature Sensor
+Provides real-time temperature measurements.
+
+## Relay Module
+Acts as an electrical isolation layer between ESP32 and the high-current Peltier module.
+
+## Peltier Module
+Performs heating or cooling depending on the power configuration.
+
+## Power Supply
+Provides required operating voltage and current.
